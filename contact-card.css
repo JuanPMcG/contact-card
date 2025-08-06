@@ -1,0 +1,43 @@
+body {
+  font-family: system-ui;
+  background: #ffffff;
+  color: black; /* or remove entirely to use default */
+  text-align: left;
+  margin: 2rem;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #fff;
+  max-width: 600px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.contact-info {
+  flex-grow: 1;
+}
+
+.contact-info p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.email-button {
+  background: #0018f9;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-weight: bold;
+}
